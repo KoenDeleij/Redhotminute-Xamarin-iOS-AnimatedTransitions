@@ -6,3 +6,4 @@ bin
 obj
 packages
 *.db
+UserPrefs.xml

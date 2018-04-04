@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using MvvmCross.Core.ViewModels;
+using MvvmCross.Commands;
+using MvvmCross.ViewModels;
 
 namespace CoolAnimations.Core.ViewModels
 {
-    public class HomeViewModel : BaseViewModel
+    public class HomeViewModel : BaseViewModel, IMvxViewModel
     {
         public HomeViewModel()
         {

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="TransitionTheme.Common" parent="Theme.AppCompat.Light">
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="colorControlNormal">#FFFFFF</item>
+	</style>
+
+	<style name="TransitionTheme" parent="TransitionTheme.Base">
+	</style>
+
+	<style name="TransitionTheme.Base" parent="TransitionTheme.Common">
+	</style>
+</resources>

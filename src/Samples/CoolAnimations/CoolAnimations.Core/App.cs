@@ -1,9 +1,11 @@
-using MvvmCross.Platform;
-using MvvmCross.Platform.IoC;
+
+using CoolAnimations.Core.ViewModels;
+using MvvmCross.IoC;
+using MvvmCross.ViewModels;
 
 namespace CoolAnimations.Core
 {
-    public class App : MvvmCross.Core.ViewModels.MvxApplication
+    public class App : MvxApplication
     {
         public override void Initialize()
         {
@@ -11,8 +13,7 @@ namespace CoolAnimations.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            
-            RegisterNavigationServiceAppStart<ViewModels.HomeViewModel>();
+            RegisterAppStart<HomeViewModel>();
         }
     }
 }

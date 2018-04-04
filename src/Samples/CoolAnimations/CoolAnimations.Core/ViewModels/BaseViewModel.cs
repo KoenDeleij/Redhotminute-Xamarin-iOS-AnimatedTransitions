@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using CoolAnimations.Core.Helpers;
-using MvvmCross.Core.Navigation;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform.IoC;
+using MvvmCross.Commands;
+using MvvmCross.IoC;
+using MvvmCross.Navigation;
+using MvvmCross.ViewModels;
 
 namespace CoolAnimations.Core.ViewModels
 {
